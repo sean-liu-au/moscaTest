@@ -1,0 +1,20 @@
+{
+  "name": "moscaTest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "babel ./src --out-dir ./dist",
+    "test": "babel-node ./Server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mosca": "^2.5.2",
+    "redis": "^2.7.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0"
+  }
+}
